@@ -13,15 +13,12 @@ function App() {
    <div >
     <BrowserRouter>
     <div className='relative z-0 bg-primary'>
-      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+      <div className='bg-center bg-no-repeat bg-cover bg-hero-pattern'>
         <Navbar/>
         <Hero/>
       </div>
       <Content/>
-      <Education/>
-      
-      
-      
+      {/* <Education/> */}
 
     </div>
     </BrowserRouter>

@@ -1,8 +1,5 @@
 import "./Navbar"
 
-
-
-
 export {
     Navbar
 }

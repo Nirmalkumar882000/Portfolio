@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from "../styles";
 import "./Navbar.scss"
+import logo from "/logo.png"
 
 function Navbar() {
   const [active, setActive] = useState("");
@@ -33,15 +34,15 @@ function Navbar() {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}>
 
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='flex items-center justify-between w-full mx-auto max-w-7xl'>
         <Link to="/" className='flex items-center gap-2'>
-          <img src='' alt='logo'  className='w-9 h-9 object-contain logo'/>
+          <img src={logo} alt='logo'  className='object-contain w-9 h-9 logo'/>
           <p className='sm:block text-white text-[18px] font-bold cursor-pointer flex '>
           Lucky World
           </p>
         </Link>
 
-        <div className='sm:flex gap-5'>
+        <div className='gap-5 sm:flex'>
           <div
               className={`top2 ${"text-secondary"
               } hover:text-white text-[15px] font-medium cursor-pointer`}
