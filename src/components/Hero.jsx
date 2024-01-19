@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import ComputersCanvas from "./canvas/Computers";
 import Typewriter from "typewriter-effect"
 
+
 function Hero() {
   const textRef = useRef();
 

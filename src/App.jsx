@@ -2,10 +2,9 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Content from "./components/Content"
-import Education from './components/Education'
-
-
+import Content from './components/content/Content'
+import Education from './components/Education/Education'
+import Project from './components/project/Project'
 
 
 function App() {
@@ -18,8 +17,13 @@ function App() {
         <Hero/>
       </div>
       <Content/>
-      {/* <Education/> */}
-
+      <Education/>
+      <Project/>
+      
+      
+      
+      
+  
     </div>
     </BrowserRouter>
 

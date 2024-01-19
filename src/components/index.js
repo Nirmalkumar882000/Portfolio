@@ -1,5 +1,9 @@
 import "./Navbar"
+import "./Hero"
+import "./content/Content"
 
 export {
-    Navbar
+    Navbar,
+    Hero,
+    Content
 }

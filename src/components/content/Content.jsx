@@ -1,20 +1,21 @@
 import React, { useState } from 'react'
 import "./Content.scss"
+
+// React Icons
 import { AiOutlineHome,AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { MdMessage } from "react-icons/md";
 import {BsPersonWorkspace} from "react-icons/bs"
 
 function Content() {
-  const [activeNav, setActiveNav] = useState("#");
-  
+  const[activeNav,setActiveNav]=useState()
   return (
     <div className='nav'>
       <a href='#'
       onClick={()=>setActiveNav("#")}
-      className={activeNav === "#" ? "active" : ""}
+      className={activeNav === "#" ? "active" : ""} 
       >
-        <AiOutlineHome/>
+      <AiOutlineHome />
       </a>
       <a
           href="#education"
