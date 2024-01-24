@@ -5,6 +5,9 @@ import Hero from './components/Hero'
 import Content from './components/content/Content'
 import Education from './components/Education/Education'
 import Project from './components/project/Project'
+import Profile from './components/profile/Profile'
+import Tech from './components/Tech/Tech'
+
 
 
 function App() {
@@ -19,11 +22,9 @@ function App() {
       <Content/>
       <Education/>
       <Project/>
-      
-      
-      
-      
-  
+      <Profile/>
+      <Tech/>
+    
     </div>
     </BrowserRouter>
 
