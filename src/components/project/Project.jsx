@@ -17,10 +17,6 @@ import {
 import ProjectList from "./ProjectList";
 
 
-
-
-
-
 const ProjectCard=({
   index,
   name,
@@ -119,19 +115,18 @@ function Project() {
 
   useEffect(()=>{
     switch(selected){
-      case "java":
+      case "react":
         setData(javaProject);
         break;
-        case "c++":
+        case "r3f":
         setData(cProject);
         break;
-        case "web":
+        case "wordpress":
         setData(webProject);
         break;
         case "other":
         setData(otherProject);
         break;
-
         default:
           setData(cProject);
     }

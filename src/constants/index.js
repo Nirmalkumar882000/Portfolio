@@ -5,7 +5,7 @@ import {
     crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
     port_3d, jsp, chitchat, notes, react1,
-    be,sql, mini, snl,
+    be,sql, mini, snl,clg1,clg2,
   } from "../assets";
 
 
@@ -124,16 +124,16 @@ import {
 
   const list = [
     {
-      id: "java",
-      title: "Java",
+      id: "react",
+      title: "React",
     },
     {
-      id: "c++",
-      title: "C++",
+      id: "react three fiber",
+      title: "React Three Fiber",
     },
     {
-      id: "web",
-      title: "Web Dev",
+      id: "wordpress",
+      title: "WordPress",
     },
     {
       id: "other",
@@ -556,10 +556,6 @@ import {
     
   ];
 
-
-
-
-
   const experiences = [
     {
       title: "Software Devloper",
@@ -648,10 +644,17 @@ import {
   ];
 
 
-
-
-
   const educations = [
+    {
+      degree: "Master of Engineering",
+      branch:
+        "Computer Science And Engineering",
+      marks:
+        "CGPA : 8.24 / 10",
+      name: "Sethu Institude of Technology",
+      year: "(2021 - 2023)",
+      image: clg1,
+    },
     {
       degree: "Bachelor of Engineering",
       branch:
@@ -660,7 +663,7 @@ import {
         "CGPA : 7.64 / 10",
       name: "Paavai college of Engineering",
       year: "(2017 - 2021)",
-      image: clg,
+      image: clg2,
     },
     {
       degree:

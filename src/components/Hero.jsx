@@ -9,6 +9,7 @@ import { init } from "ityped";
 import { motion } from "framer-motion";
 import ComputersCanvas from "./canvas/Computers";
 import Typewriter from "typewriter-effect"
+import Photo from "../assets/photo2.jpg"
 
 
 function Hero() {
@@ -56,15 +57,15 @@ function Hero() {
                 <AiOutlineGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/aarti-rathi-a6031814b/"
+                href=""
                 target="_blank"
               >
                 <ImLinkedin />
               </a>
-              <a href="https://www.instagram.com/aarti.rathiii" target="_blank">
+              <a href="" target="_blank">
                 <AiOutlineInstagram />
               </a>
-              <a href="https://linktr.ee/rathi17" target="_blank">
+              <a href="" target="_blank">
                 <BiLinkAlt />
               </a>
             </div>
@@ -72,7 +73,7 @@ function Hero() {
         </div>
 
         <div className="absolute imgcontainer1 violet-gradient">
-          <img src="" alt="photo" className="object-contain" />
+          <img src={Photo} alt="photo" className="object-contain" />
         </div>
       </div>
 
