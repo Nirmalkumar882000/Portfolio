@@ -15,15 +15,6 @@ import Photo from "../assets/photo2.jpg"
 function Hero() {
   const textRef = useRef();
 
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: true,
-  //     backDelay: 1500,
-  //     backSpeed: 60,
-  //     strings: ["Developer", "Designer", "Content Creator"],
-  //   });
-  // }, []);
-
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div className="flex">

@@ -1,4 +1,4 @@
-import logo from "./arr.svg";
+
 import aarti from "./photo2.jpg";
 
 
@@ -13,15 +13,50 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import mysql from "./tech/sql.png"
+import threejs from "./tech/threejs.svg"
+import bootstrap from "./tech/bootstrap.png"
+import npm from "./tech/npm.png"
+import wordpress from "./tech/wordpress.png"
+import redux from "./tech/redux.png"
 
-import holopin from "./holopin.png";
+
 import hf from "./hf.svg";
 import bny from "./bny.png";
-import clg from "./clg.png";
+
 import clg1 from "./clg1.jpg";
 import clg2 from "./clg2.jpg";
 import school from "./school.jpg";
+
+
+//React Projects
+
+import fruitWheel from "./project/fruitWheel.jpg"
+import candyWheel from "./project/candyWheel.jpg"
+import carWheel from "./project/candy wheel.png"
+import carRental from "./project/car_rendta.png"
+import react1 from "./project/react1.png";
+import ecommerce from "./project/Ecommerce.png"
+import portfolio from"./project/portfolio.png"
+
+
+//React Three FIber Projects
+
+import carColorChanged from "./project/3d_Car_color_change.png"
+import dreamTravel from "./project/3d_D_T.png"
+import monster from "./project/3d_monster.png"
+import butterfly from "./project/Butterfly_3d.png"
+import landing from "./project/landing_page.png"
+
+
+//React Native
+
+
+// Wordpresss Projects
+
+import cabs from "./project/cabs.png"
+
+
 
 import crypto from "./project/crypto.jpg";
 import oop from "./project/oop.png";
@@ -38,7 +73,6 @@ import port_3d from "./project/react.png";
 import jsp from "./project/jsp.png";
 import notes from "./project/notes.png";
 import chitchat from "./project/chitChat.png";
-import react1 from "./project/react1.png";
 
 import be from "./project/mcq.avif";
 import sql from "./project/sql.jpg";
@@ -46,7 +80,7 @@ import mini from "./project/library.png";
 import snl from "./project/snl.jpeg";
 
 export {
-  logo,
+
   github,
   css,
   git,
@@ -57,10 +91,9 @@ export {
   reactjs,
   tailwind,
   threejs,
-  hf,holopin,
+  hf,
   bny,
   demo,
-  clg,
   clg1,
   clg2,
   school,
@@ -68,6 +101,24 @@ export {
   aarti,
   oop,crud,dwld,onetomany,yml,
   trie,ds,cg,
-  port_3d, jsp, chitchat, notes, react1,
+  port_3d, jsp, chitchat, notes,
   be,sql, mini, snl,
+  bootstrap,npm,wordpress,mysql,redux,
+
+// React Projects
+  fruitWheel,
+  candyWheel,
+  carRental,
+  carWheel,
+  ecommerce,
+  react1,
+  portfolio,
+  // react three fiber
+  carColorChanged,
+  landing,
+  dreamTravel,
+  monster,
+  butterfly,
+  // Wordpress
+  cabs
 };
