@@ -13,7 +13,6 @@ import Photo from "../assets/photo2.jpg"
 
 
 function Hero() {
-  const textRef = useRef();
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -24,27 +23,25 @@ function Hero() {
           <div className="items-center justify-center mt-5 flex-flex-col">
             <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
             <div className="w-1 h-40 sm:h-80 violet-gradient" />
+
           </div>
 
           <div className="head2">
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hii there, I'm <p className="name text-[#915EFF]">Lucky World</p>
+              Hii there, I'm <p className="name text-[#915EFF]">Nirmalkumar M</p>
             </h1>
             <h3  className={`${styles.heroSubText} mt-2 green-text-gradient`}>
               <Typewriter
                 options={{
-                  strings: ["React Devloper","Designer", "React Three Fiber","Full Stack Developer"],
+                  strings: ["Full Stack Developer","React Devloper","Designer", "React Three Fiber",],
                   autoStart: true,
                   loop: true,
-                  delay:75,
+                  delay:100,
                 }}
               />
-              
-
             </h3>
-
             <div className="absolute link1">
-              <a href="https://github.com/shinchancode" target="_blank">
+              <a href="https://github.com/Nirmalkumar882000" target="_blank">
                 <AiOutlineGithub />
               </a>
               <a
@@ -69,24 +66,6 @@ function Hero() {
       </div>
 
       <ComputersCanvas />
-
-      <div className="absolute flex items-center justify-end w-10 xs:bottom-10 bottom-32">
-        <a href="#education">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className="w-3 h-3 mb-1 rounded-full bg-secondary"
-            />
-          </div>
-        </a>
-      </div>
     </section>
   );
 }

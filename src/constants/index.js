@@ -92,15 +92,15 @@ import {
       title: "React Three Fiber",
     },
     {
-      id: "wordpress",
-      title: "WordPress",
+      id: "react native",
+      title: "React Native",
     },
     {
       id: "other",
       title: "Other",
     },
   ];
- 
+
 
   export const javaProject = [
     {
@@ -214,7 +214,7 @@ import {
       source_code_link: "https://github.com/Nirmalkumar882000/Portfolio",
     },
   ];
-  
+
   export const cProject = [
     {
       name: "3d Car Color Changed",
@@ -304,15 +304,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: monster,
+      image: cabs,
       source_link: "https://github.com/Nirmalkumar882000/Monster_3d",
       source_code_link: "https://github.com/Nirmalkumar882000/Monster_3d",
     },
-   
+
   ];
-  
   export const otherProject = [
-   
     {
       name: "Uma Cabs",
       description:
@@ -380,5 +378,5 @@ import {
       image: school,
     },
   ];
-  
+
   export { list,technologies, educations };

@@ -6,6 +6,7 @@ import Content from './components/content/Content'
 import Education from './components/Education/Education'
 import Project from './components/project/Project'
 import Tech from './components/Tech/Tech'
+import Contact from './components/contact/Contact'
 
 
 
@@ -22,7 +23,7 @@ function App() {
       <Education/>
       <Project/>
       <Tech/>
-    
+      <Contact/>
     </div>
     </BrowserRouter>
 
